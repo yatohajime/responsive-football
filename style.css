@@ -155,6 +155,7 @@ footer{
     font-family: var(--body-font);
     font-weight: 500;
     margin-top: 5px;
+    margin-bottom:187px;
 }
 
 /* media queries */

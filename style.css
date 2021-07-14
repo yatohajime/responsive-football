@@ -169,6 +169,7 @@ footer{
     }
     .half-width > .left-position h1{
         font-size: 50px;
+        line-height: 3rem;
     }
     .left-position{
         position: relative;
@@ -177,7 +178,7 @@ footer{
     }
     .half-width > .right-position img{
         width: 100%;
-        height: 70%;
+        height: 159px;
     }
     .right-position{
         position: relative;
@@ -191,6 +192,7 @@ footer{
         grid-column-gap: 20px;
         grid-row-gap: 20px;
         margin: 47px 20px 30px;
+        padding: 20px 15px;
     }
     .player-info{
         margin-left:0;

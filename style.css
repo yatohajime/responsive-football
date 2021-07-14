@@ -3,8 +3,75 @@
 
 
 /* ---------global section ----------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --heading-font:'Lexend Deca', sans-serif;
     --body-font: 'Inter', sans-serif;
+
+    --first-bg:#405486;
+    --second-bg:#FFF5DE;
+    --album-color:#C6B4CE;
+    --match-bg:#222831;
+    --span-color:#9B72AA;
 }
 
+
+/* common style */
+.link-button{
+    background-color: #9B72AA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 36px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+/* first-section common style */
+.container{
+    display: flex;
+    background-color: var(--first-bg);
+    padding-bottom: 86px;
+}
+.half-width{
+    width: 50%;
+}
+
+/* header-space div area */
+.half-width > .left-position h1{
+    font-family: var(--heading-font);
+    color: white;
+    font-size: 64px;
+    line-height: 6rem;
+    font-weight: 900;
+}
+.left-position{
+   position: relative;
+   top: 121px;
+   left: 156px; 
+}
+span{
+    display: block;
+    color: var(--album-color);
+}
+
+/* banner-space div area */
+.half-width > .right-position img{
+    width: 90%;
+    height: 556px;
+}
+
+.right-position{
+    position: relative;
+    right: 67px;
+    top: 23px;
+}

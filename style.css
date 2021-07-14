@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
+
+
+/* ---------global section ----------*/
+:root{
+    --heading-font:'Lexend Deca', sans-serif;
+    --body-font: 'Inter', sans-serif;
+}
+

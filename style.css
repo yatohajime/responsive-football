@@ -14,9 +14,8 @@
 
     --first-bg:#476072;
     --second-bg:#EEEEEE;
-    --album-color:#0A1931;
-    --match-bg:#222831;
-    --span-color:#9B72AA;
+    --span-color:#0A1931;
+    --button-bg:#222831;
 }
 
 
@@ -45,7 +44,7 @@ a{
 }
 .link-button:hover{
     text-decoration: underline;
-    color: var(--match-bg);
+    color: var(--button-bg);
 }
 
 /* first-section common style */
@@ -73,7 +72,7 @@ a{
 }
 span{
     display: block;
-    color: var(--album-color);
+    color: var(--span-color);
 }
 
 /* banner-space div area */
@@ -128,3 +127,78 @@ span{
     font-weight: 650;
     line-height: 2rem;
 }
+/* footer section */
+footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-logo img{
+    position: relative;
+    left: 200px;
+    top: 6px;
+    width: 50%;
+
+}
+
+.social-icon i{
+    margin:10px 7px ;
+    background-color: rgba(128, 128, 128, 0.13);
+    height: 1rem;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.copyright{
+    font-family: var(--body-font);
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* media queries */
+
+
+/* mobile phone section */
+@media only screen and (max-width:688px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .half-width > .left-position h1{
+        font-size: 50px;
+    }
+    .left-position{
+        position: relative;
+        left: 28px;
+        top: 20px;
+    }
+    .half-width > .right-position img{
+        width: 100%;
+        height: 70%;
+    }
+    .right-position{
+        position: relative;
+        top: 60px;
+        left: 20px;
+    }
+
+    .album{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        margin: 47px 20px 30px;
+    }
+    .player-info{
+        margin-left:0;
+    }
+    .footer-logo img{
+        position: relative;
+        left: 93px;
+    }
+    
+}
+
